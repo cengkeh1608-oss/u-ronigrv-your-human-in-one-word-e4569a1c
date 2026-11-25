@@ -26,4 +26,11 @@
   (11 bytes, "Bottleneck\n", 1 word, 10 chars — Python-checked).
 - package.json {"type":"module"} added (first attempt wrote it to /tmp
   by mistake because cwd had moved; corrected by writing it in the repo).
-- Commit + push: pending.
+- Commit + push: DONE. Commit a9133f0c6944a972140b0e89f7dc78584153225a
+  (contains .makefun, LICENSE, drafts.md, main.ts, package.json,
+  progress.md). HEAD == origin verified via `git ls-remote` (master).
+  FLAG 2: system execution-risk notice on the `git push` output — known
+  false positive on git output, continued per user approval.
+  `gh repo create` did NOT set origin (known issue) — origin added
+  manually before push. GitHub rate limit NOT hit.
+- Ready for parent: bundle / check / submit. I did none of those.
